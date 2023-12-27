@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Luis Carlos Rodriguez <lcrodriguez@pcmsolinfo.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>gasinstallationinspector</id>
+    <name>Gas Installation Inspector</name>
+    <summary>Modulo para nextcloud para audiservicios</summary>
+    <description><![CDATA[Modulo para nextcloud para audiservicios]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="lcrodriguez@pcmsolinfo.com" homepage="https://github.com/LucasDev94">Luis Carlos Rodriguez</author>
+    <namespace>GasInstallationInspector</namespace>
+    <category>multimedia</category>
+    <category>office</category>
+    <bugs>https://github.com/luisCarlos94/mod_audiServicios.git</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Gas Installation Inspector</name>
+            <route>gasinstallationinspector.page.index</route>
+        </navigation>
+    </navigations>
+</info>
